@@ -1,0 +1,23 @@
+//
+//
+//  @ Project : JNU_IDS
+//  @ Date : 2016-05-11
+//  @ Author : Ã¤µÎ°É, ±è¹ÎÁø, ±è¿¬¼ö, Á¤Âù¿ì, ÃÖ¹ÎÁ¤
+//
+//
+
+
+
+package IDS.Controller;
+
+
+public class MainController {
+	private boolean condition;
+	public String startCapture() {
+	
+	}
+	
+	public String stopCapture() {
+	
+	}
+}
