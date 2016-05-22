@@ -6,15 +6,22 @@
 //
 //
 
+package Model;
 
+//¸ÞÀÎ ¸ðµ¨
+public class MainModel {
+	private static View.MainView mainView;
+	private static Controller.MainController mainController;
 
-package IDS.Model;
-
-
-protected class MainModel {
-	private IDS.View.MainView mainView;
-	private IDS.Controller.MainController mainController;
-	public void setMainModel() {
 	
+	public static void main(String[] args){
+		
+		setMainModel();
+		
+	}
+	
+	
+	public static void setMainModel() {
+		View.MainView mainView = new View.MainView();
 	}
 }
