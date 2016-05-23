@@ -6,18 +6,32 @@
 //
 //
 
-
-
-package IDS.Controller;
-
+package Controller;
 
 public class MainController {
 	private boolean condition;
+
+	
+	//ÆĞÅ¶ Ä¸ÃÄ ½ÃÀÛ
 	public String startCapture() {
-	
+
+		condition = true;
+		
+		String value = "";
+
+		return value;
+
 	}
+
 	
+	//ÆĞÅ¶ Ä¸ÃÄ ¸ØÃã
 	public String stopCapture() {
-	
+
+		condition = false;
+		
+		String value = "";
+
+		return value;
+
 	}
 }

@@ -6,18 +6,21 @@
 //
 //
 
+package Controller;
 
-
-package IDS.Controller;
-
-
-public class RulesetController extends AnalysesController, PreferencesController, MainController, AnalysesController {
+public class RulesetController extends FileController {
 	private String ruleset;
-	public void setRuleset(Object String) {
-	
+
+	//프로그램에 쓸 룰셋 설정
+	public void setRuleset() {
+		
+		
 	}
-	
+
+	//현재 룰셋 상태 반환
 	public String getNowRuleset() {
-	
+		
+		return ruleset;
+
 	}
 }

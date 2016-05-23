@@ -6,19 +6,23 @@
 //
 //
 
+package View;
 
-
-package IDS.View;
-
+import java.awt.*;
+import javax.swing.*;
 
 public class AnalysesView {
 	private JFrame jFrame;
 	private Container container;
+
 	public void setFrame() {
-	
+
 	}
-	
-	public ImageIcon getImageResource() {
-	
+
+	public ImageIcon getImageResource(String imageIndex) {
+
+		ImageIcon image = new ImageIcon(imageIndex);
+
+		return image;
 	}
 }

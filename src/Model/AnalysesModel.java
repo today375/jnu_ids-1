@@ -6,15 +6,14 @@
 //
 //
 
+package Model;
 
+//ºÐ¼® ¸ðµ¨
+class AnalysesModel {
+	private View.AnalysesView analysesView;
+	private Controller.AnalysesController analysesController;
 
-package IDS.Model;
-
-
-protected class AnalysesModel {
-	private IDS.View.AnalysesView analysesView;
-	private IDS.Controller.AnalysesController analysesController;
 	public void setAnalysesModel() {
-	
+
 	}
 }

@@ -6,36 +6,47 @@
 //
 //
 
+package Controller;
 
+import java.io.File;
 
-package IDS.Controller;
-
-
-public class FileController extends RulesetController, AnalysesController {
+public class FileController {
 	private File rulesetFile;
 	private File logFile;
-	private File preferenceFile;
-	public void setRulesetFile(Object String) {
-	
+	private File preferencesFile;
+
+	//룰셋파일 설정
+	public void setRulesetFile() {
+
 	}
-	
+
+	//룰셋파일 불러오기
 	public File getRulesetFile() {
-	
+
+		return rulesetFile;
+
 	}
-	
-	public void setLogFile(Object String) {
-	
+
+	//로그파일 서렂ㅇ
+	public void setLogFile() {
+
 	}
-	
+
+	//로그파일 불러오기
 	public File getLogFile() {
-	
+
+		return logFile;
 	}
-	
-	public File setPreferencesFile() {
-	
+
+	//환경설정 설정
+	public void setPreferencesFile() {
+
 	}
-	
-	public void getPreferencesFile(Object String) {
-	
+
+	//환경설정 불러오기
+	public File getPreferencesFile() {
+
+		return preferencesFile;
+
 	}
 }

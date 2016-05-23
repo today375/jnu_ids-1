@@ -8,11 +8,12 @@
 
 
 
-package IDS.Resource;
+package Resource;
 
-
+//파일명은 전부 여기서 사용
 public class FileResource {
-	private String ruleSetFile;
-	private String preferenceFile;
-	private String logFile;
+	
+	public static String ruleSetFile = "ids_ruleset";
+	public static String preferencesFile = "ids_preferences";
+	public static String logFile = "ids_log";
 }

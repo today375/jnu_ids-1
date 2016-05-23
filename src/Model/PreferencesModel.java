@@ -6,15 +6,14 @@
 //
 //
 
+package Model;
 
+//환결설정 모델
+class PreferencesModel {
+	private View.PreferencesView preferenceView;
+	private Controller.PreferencesController preferencesController;
 
-package IDS.Model;
-
-
-protected class PreferencesModel {
-	private IDS.View.PreferencesView preferenceView;
-	private IDS.Controller.PreferencesController preferencesController;
 	public void setPreferencesModel() {
-	
+
 	}
 }

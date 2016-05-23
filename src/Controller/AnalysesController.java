@@ -14,15 +14,19 @@ import java.io.File;
 
 public class AnalysesController extends MainController {
 	private String result;
+	
+	//분석
 	public String Analyses(File file) {
 		
 		
 		return result;
 	}
 	
+	//분석결과 저장
 	public void SaveResult(String fileName) {
 		
 		File file = new File(fileName);
+		
 		
 	}
 }
