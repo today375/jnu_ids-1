@@ -103,6 +103,7 @@ public class MainView extends javax.swing.JFrame {
 	// <editor-fold defaultstate="collapsed" desc="Generated Code">
 	private void initComponents() throws IOException {
 
+		
 		panel_logo = new javax.swing.JPanel();
 		logo_lebel = new javax.swing.JLabel();
 		panel_tree = new javax.swing.JPanel();

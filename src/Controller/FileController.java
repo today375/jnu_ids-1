@@ -10,6 +10,7 @@ package Controller;
 
 import java.io.File;
 
+
 public class FileController {
 	private File rulesetFile;
 	private File logFile;

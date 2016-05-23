@@ -16,7 +16,6 @@ public class PreferencesView {
 	private Container container;
 
 	public void setFrame() {
-
 	}
 
 	public ImageIcon getImageResource(String imageIndex) {
